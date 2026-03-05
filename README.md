@@ -11,3 +11,5 @@ There are several algorithms to handle the Load Balancing Act:
 4. Least Connections -> Use it when	requests vary in processing time.
 5. Least Response Time - High-Performance apps where speed is King.
 6. IP Hash - Sticky Sessions, use it when you need a user to stick to one server.(For example: Shopping Cart). 
+
+
