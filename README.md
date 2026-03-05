@@ -1,5 +1,4 @@
-# loadbalancers
-Concept of Load Balancers
+# Load Balancers
 
 Load Balancers are like air traffic controllers, they decide where and how to route the requests to ensure that no servers are overwhelmed while others sit idle.
 
