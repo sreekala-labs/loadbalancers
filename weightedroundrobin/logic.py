@@ -6,8 +6,10 @@ class WeightedRoundRobin:
     #Declare an array of weighted pool.
     self.weighted_pool=[]
     for server, weight in servers.items():
+      #extend method is to add elements to the array.
       self.weighted_pool.extend([server] * weight)
 
+    #Infinite Cycle. Resets from beginning based on the condition. 
     self.selector= itertools.cycle(self.weighted_pool)
 
   def get_next_server(self):
